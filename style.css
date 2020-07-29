@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("/Fonts/roboto-regular-webfont.ttf") format("truetype")
+}
+
+html{
+  font-family: "roboto";
+}
 /* NAV */
 .navbar{
   width: 100%;
@@ -29,7 +37,7 @@ nav a{
   color: #f2f2f2;
 }
 nav a:hover{
-  background-color: #ddd;
+  background-color: rgb(75, 75, 75);
   color: black;
   border-radius: 50%;
 }
@@ -325,7 +333,7 @@ form input{
   ul{
     padding-left: 0%;
     flex-flow: nowrap;
-    margin-left: 40%;
+    margin-left: 38%;
   }
   ul a{
     margin-left: 1%;
@@ -346,7 +354,7 @@ form input{
     margin-top: 10%;
   }
   ul{
-    margin-left: 60%;
+    margin-left: 55%;
   }
   .pad1{
     width: 24%;
