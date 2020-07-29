@@ -307,3 +307,10 @@ form input{
   }
 
 }
+@media screen and (min-width:1440px){
+  main{
+    margin-top: 2%;
+
+  }
+
+}
